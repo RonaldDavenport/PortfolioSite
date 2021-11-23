@@ -17,7 +17,21 @@ a {
   color: #149ddd;
   text-decoration: none;
 }
-
+.techLogos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.techLogosDiv{
+  display: flex;
+  align-items: left;
+  flex-direction: row;
+  justify-content: left;
+}
+.portfolioList{
+  font-size: small;
+}
 a:hover {
   color: #37b3ed;
   text-decoration: none;
